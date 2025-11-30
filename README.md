@@ -10,7 +10,7 @@ GitHub Copilot agents are AI assistants that provide specialized guidance for sp
 
 ## Available Agents
 
-### 1. TDD-Red (`tdd_red.agent.md`)
+### 1. [TDD-Red](./.github/agents/tdd_red.agent.md)
 
 **Purpose**: Write failing tests that describe desired behavior before implementation exists.
 
@@ -39,7 +39,7 @@ GitHub Copilot agents are AI assistants that provide specialized guidance for sp
 - Use descriptive test names like `test_user_can_sign_in_with_valid_credentials()`
 - Prefer real objects; only fake external dependencies (databases, APIs, file systems)
 
-### 2. TDD-Green (`tdd_green.agent.md`)
+### 2. [TDD-Green](./.github/agents/tdd_green.agent.md)
 
 **Purpose**: Implement minimal code to make failing tests pass without over-engineering.
 
@@ -68,7 +68,7 @@ GitHub Copilot agents are AI assistants that provide specialized guidance for sp
 - No logging, comments, type hints, or extra validation
 - Run tests after each small change
 
-### 3. TDD-Refactor (`tdd_refactor.agent.md`)
+### 3. [TDD-Refactor](./.github/agents/tdd_refactor.agent.md)
 
 **Purpose**: Improve code quality, apply best practices, and enhance design while maintaining green tests.
 
